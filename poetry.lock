@@ -2290,13 +2290,13 @@ test = ["hypothesis (>=5.5.3)", "pytest (>=6.0)", "pytest-xdist (>=1.31)"]
 
 [[package]]
 name = "pandoc"
-version = "2.2"
+version = "2.3"
 description = "Pandoc Documents for Python"
 category = "dev"
 optional = false
 python-versions = "*"
 files = [
-    {file = "pandoc-2.2.tar.gz", hash = "sha256:d063ee252f2761010f16cf3a14912ad9245187c24c56f4b1ad9696e104fe6e1e"},
+    {file = "pandoc-2.3.tar.gz", hash = "sha256:e772c2c6d871146894579828dbaf1efd538eb64fc7e71d4a6b3a11a18baef90d"},
 ]
 
 [package.dependencies]
