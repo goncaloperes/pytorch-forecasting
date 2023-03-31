@@ -2780,14 +2780,14 @@ files = [
 
 [[package]]
 name = "pydata-sphinx-theme"
-version = "0.13.2"
+version = "0.13.3"
 description = "Bootstrap-based Sphinx theme from the PyData community"
 category = "dev"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "pydata_sphinx_theme-0.13.2-py3-none-any.whl", hash = "sha256:8d420511cedef56afd78dce86a743614219799dc217885b2dc66a0b52877b425"},
-    {file = "pydata_sphinx_theme-0.13.2.tar.gz", hash = "sha256:feb726f03791567b4eedc8d309ca7924e3794c7635c4c762edf1d293e46a8858"},
+    {file = "pydata_sphinx_theme-0.13.3-py3-none-any.whl", hash = "sha256:bf41ca6c1c6216e929e28834e404bfc90e080b51915bbe7563b5e6fda70354f0"},
+    {file = "pydata_sphinx_theme-0.13.3.tar.gz", hash = "sha256:827f16b065c4fd97e847c11c108bf632b7f2ff53a3bca3272f63f3f3ff782ecc"},
 ]
 
 [package.dependencies]
@@ -2798,6 +2798,7 @@ docutils = "!=0.17.0"
 packaging = "*"
 pygments = ">=2.7"
 sphinx = ">=4.2"
+typing-extensions = "*"
 
 [package.extras]
 dev = ["nox", "pre-commit", "pydata-sphinx-theme[doc,test]", "pyyaml"]
